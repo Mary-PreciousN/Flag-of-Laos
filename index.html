@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    .div {
+      background-color: solid black;
+      margin: 4px;
+
+    }
+
+    .first-box {
+      Background-color: darkred;
+      height: 100px;
+      width: 600px;
+      position: relative;
+    } 
+
+    .first-box>p {
+      Font-size: 40px;
+      font-weight: 200;
+      color:yellow;
+      text-align:center;
+
+    }
+
+    .circle>p {
+      font-size: 40px;
+      font-weight: 600;
+      color: darkred;
+      text-align: center;
+    }
+
+
+    .second-box {
+      background-color: #002868;
+      height: 170px;
+      width: 600px;
+      top: 150;
+    }
+
+    .circle {
+      background-color: white;
+      height: 150px;
+      width: 150px;
+      border-radius: 50%;
+      position: absolute;
+      top: 150px;
+      left: 250px;
+    }
+
+    .third-box {
+      background-color: darkred;
+      height:100px;
+      width: 600px;
+      position: relative;
+      top: 150;
+    }
+    
+    
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<body>
+  <div class="div">
+    <div class="first-box">
+      <p>The Flag</p>
+    </div>
+    <div class="second-box">
+      <div class="circle">
+        <p>Of Laos</p>
+      </div>
+    </div>
+    <div class="third-box"></div>
+  </div>
+</body>
+
+</html>
